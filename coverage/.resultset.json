@@ -1,19 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/controllers/categories_controller_spec.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/spec/controllers/categories_controller_spec.rb": [
         1,
         null,
         1,
         null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
+        5,
         null,
         1,
         1,
@@ -29,37 +22,52 @@
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/rails_helper.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -113,14 +121,14 @@
         1,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/environment.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/application.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/application.rb": [
         1,
         null,
         1,
@@ -148,12 +156,12 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/boot.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/environments/test.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/environments/test.rb": [
         1,
         null,
         null,
@@ -197,7 +205,7 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/assets.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -210,7 +218,7 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/backtrace_silencers.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -219,18 +227,18 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/cookies_serializer.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/inflections.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -248,18 +256,18 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/mime_types.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/session_store.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/wrap_parameters.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -275,7 +283,7 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/routes.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/config/routes.rb": [
         1,
         null,
         null,
@@ -364,19 +372,19 @@
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/application_helper.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/categories_helper.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/items_helper.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/items_helper.rb": [
         1,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/controllers/categories_controller.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/controllers/categories_controller.rb": [
         1,
         null,
         1,
@@ -387,23 +395,16 @@
         null,
         1,
         1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        0,
-        null,
         null,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         1,
         1,
         null,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null,
@@ -423,27 +424,28 @@
         null,
         1,
         1,
-        0,
+        4,
         null,
         null,
         1,
-        1,
+        2,
         null,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/controllers/application_controller.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/models/category.rb": [
+      "/Users/Stephanie/projects/dev/SandSmarket/app/models/category.rb": [
+        1,
         1,
         1,
         null
       ]
     },
-    "timestamp": 1435180249
+    "timestamp": 1435183534
   }
 }

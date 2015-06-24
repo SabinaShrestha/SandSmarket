@@ -8,13 +8,6 @@ class CategoriesController < ApplicationController
 
   def new
     @category = Category.new
-    if @category
-      flash[:notice] = "this created the new category. good job."
-      redirect_to(categories_path)
-    else
-      flash[:alert] = "this is not working."
-      render :new
-    end
   end
 
   def create
@@ -23,11 +16,11 @@ class CategoriesController < ApplicationController
       flash[:notice] = "saved the category"
       redirect_to(categories_path)
     else
-      flash[:alert] = "this didn't work"
+      flash[:error] = "this didn't work"
       render :create
     end
   end
-    
+
 
   def edit
 
@@ -42,7 +35,7 @@ class CategoriesController < ApplicationController
   def destroy
   end
 
-  private 
+  private
   def find_category
     @category = Category.find(params[:id])
   end
