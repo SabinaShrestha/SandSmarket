@@ -33,7 +33,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :test do
+
   gem 'simplecov', :require => false
+
+  gem 'shoulda-matchers'
+
 end
 
 group :development, :test do
@@ -49,4 +53,3 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 
 end
-
