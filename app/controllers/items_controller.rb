@@ -10,7 +10,7 @@ class ItemsController < ApplicationController
   end
 
   def create
-    @item = Item.create
+    @item = Item.new(item_params)
     if @item.save
       flash[:notice] = "created the item"
       redirect_to(items_path)

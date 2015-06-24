@@ -21,7 +21,7 @@ RSpec.describe ItemsController, type: :controller do
   describe "GET #create" do
     it "returns http success" do
       get :create, item: {price: 1000}
-      expect(response).to have_http_status(:success)
+      expect(response).to have_http_status(:redirect)
     end
 
     it 'does not create' do
