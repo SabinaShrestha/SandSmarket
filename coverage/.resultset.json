@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/controllers/categories_controller_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/controllers/categories_controller_spec.rb": [
         1,
         null,
         1,
@@ -67,7 +67,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/rails_helper.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -121,14 +121,14 @@
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/environment.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/application.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/application.rb": [
         1,
         null,
         1,
@@ -156,12 +156,12 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/boot.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/environments/test.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/environments/test.rb": [
         1,
         null,
         null,
@@ -205,7 +205,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/assets.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -218,7 +218,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/backtrace_silencers.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -227,18 +227,18 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/cookies_serializer.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/filter_parameter_logging.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/inflections.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -256,18 +256,18 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/mime_types.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/session_store.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/initializers/wrap_parameters.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -283,7 +283,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/config/routes.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/config/routes.rb": [
         1,
         null,
         null,
@@ -372,19 +372,19 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/application_helper.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/categories_helper.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/helpers/items_helper.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/helpers/items_helper.rb": [
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/controllers/categories_controller.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/controllers/categories_controller.rb": [
         1,
         null,
         1,
@@ -432,14 +432,14 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/controllers/application_controller.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/controllers/items_controller_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/controllers/items_controller_spec.rb": [
         1,
         null,
         1,
@@ -505,7 +505,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/controllers/items_controller.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/controllers/items_controller.rb": [
         1,
         1,
         null,
@@ -550,7 +550,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/helpers/categories_helper_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/helpers/categories_helper_spec.rb": [
         1,
         null,
         null,
@@ -567,7 +567,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/helpers/items_helper_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/helpers/items_helper_spec.rb": [
         1,
         null,
         null,
@@ -584,7 +584,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/models/category_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/models/category_spec.rb": [
         1,
         null,
         1,
@@ -597,7 +597,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/models/category.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/models/category.rb": [
         1,
         1,
         1,
@@ -608,7 +608,7 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/models/item_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/models/item_spec.rb": [
         1,
         null,
         1,
@@ -619,104 +619,104 @@
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/app/models/item.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/app/models/item.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/create.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/destroy.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/create.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/edit.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/destroy.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/index.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/edit.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/new.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/index.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/show.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/new.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/categories/update.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/show.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/create.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/categories/update.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/destroy.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/create.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/edit.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/destroy.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/index.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/edit.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/new.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/index.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/show.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/new.html.erb_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Stephanie/projects/dev/SandSmarket/spec/views/items/update.html.erb_spec.rb": [
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/sabinashrestha/Devpointlabs/summer2015/sandsmarket/spec/views/items/update.html.erb_spec.rb": [
         1,
         null,
         1,
@@ -724,6 +724,6 @@
         null
       ]
     },
-    "timestamp": 1435198969
+    "timestamp": 1435250598
   }
 }
