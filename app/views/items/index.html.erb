@@ -2,10 +2,19 @@
 
   <% @item.each do |item| %>
     <div class="col-xs-2">
-        <%= image_tag(item.item_photo.url(:thumb), alt: "For Sale", size: "100x50") %>
+        <%= image_tag(item.item_photo.url(:thumb), alt: "For Sale", size: "25%") %>
         <br>
-        <%= link_to "$#{item.price}", item_path(item.id), :class => "btn btn-info" %>
+        <%= link_to "View this Item", item_path(item.id), :class => "btn btn-info" %>
     </div>
   <% end %>
 
 </div>
+
+
+
+
+<!-- <div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">Left</button>
+  <button type="button" class="btn btn-default">Middle</button>
+  <button type="button" class="btn btn-default">Right</button>
+</div> -->

@@ -5,3 +5,5 @@
 <h1><%= @item.description %></h1>
 <p><%= @item.details %></p>
 <p><%= @item.price %></p>
+<%= link_to "Edit", edit_item_path(@item.id), :class => "btn btn-warning" %>
+<%= link_to "Delete", item_path(@item.id), :class => "btn btn-danger" %>
