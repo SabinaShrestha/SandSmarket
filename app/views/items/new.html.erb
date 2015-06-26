@@ -18,6 +18,9 @@
     <%= f.text_field(:details, class: 'form-control') %>
   </div>
   <div class="form_group">
+      <%= f.file_field :item_photo %>
+  </div>
+  <div class="form_group">
     <%= f.submit('Post', class: 'btn btn-lg btn-success') %>
   </div>
 <% end %>

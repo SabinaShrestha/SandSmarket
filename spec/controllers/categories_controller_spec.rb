@@ -47,10 +47,10 @@ RSpec.describe CategoriesController, type: :controller do
     end
   end
 
-  describe "GET #update" do
+  describe "POST #update" do
     it "returns http success" do
-      get :update, id:category.id
-      expect(response).to have_http_status(:success)
+      post :update, id:category.id
+      expect(response).to have_http_status(:redirect)
     end
   end
 

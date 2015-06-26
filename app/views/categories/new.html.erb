@@ -10,9 +10,11 @@
     <%= f.text_field(:description, class: 'form-control') %>
   </div>
   <div class="form_group">
+      <%= f.file_field :category_photo %>
+  </div>
+  <div class="form_group">
     <%= f.submit('Post', class: 'btn btn-lg btn-success') %>
   </div>
 <% end %>
-  
-</div>
 
+</div>

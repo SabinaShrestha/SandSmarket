@@ -1,7 +1,9 @@
 <h1><%= @category.name.capitalize %> for Sale</h1>
 
+<%= image_tag @category.category_photo.url(:medium) if @category.category_photo.present? %>
+
 <% @items.each do |item| %>
 
-  <%= item.description %>
+  <%= link_to item.description.capitalize, item_path(item.id), :class => "" if item.description.present? %>
 
 <% end %>
