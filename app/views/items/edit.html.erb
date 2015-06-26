@@ -1,2 +1,28 @@
-<h1>Items#edit</h1>
-<p>Find me in app/views/items/edit.html.erb</p>
+<h1>Edit Item</h1>
+<div>
+<%= form_for(@item) do |f| %>
+  <div class="form_group">
+    <%= f.label(:price, class: 'form-label') %>
+    <%= f.text_field(:price, class: 'form-control') %>
+  </div>
+  <div class="form_group">
+    <%= f.label(:category, class: 'form-label') %>
+    <%= select("item", "category_id", Category.all.collect {|p| [ p.name, p.id ] }, { include_blank: true }) %>
+  </div>
+  <div class="form_group">
+    <%= f.label(:description, class: 'form-label') %>
+    <%= f.text_field(:description, class: 'form-control') %>
+  </div>
+  <div class="form_group">
+    <%= f.label(:details, class: 'form-label') %>
+    <%= f.text_field(:details, class: 'form-control') %>
+  </div>
+  <div class="form_group">
+      <%= f.file_field :item_photo %>
+  </div>
+  <div class="form_group">
+    <%= f.submit('Edit', class: 'btn btn-lg btn-success') %>
+  </div>
+<% end %>
+
+</div>

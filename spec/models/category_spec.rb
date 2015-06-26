@@ -1,5 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe Category, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before(:each) do
+    @category = Category.create!(name: 'homes', description: 'A place to relax')
+  end
+
+  describe Category do
+    it { should have_many(:items) }
+  end
 end

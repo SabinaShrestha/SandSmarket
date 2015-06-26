@@ -28,6 +28,8 @@ Rails.application.routes.draw do
 
   # get 'categories/destroy'
 
+  root 'categories#index'
+
   resources :categories
   resources :items
   # The priority is based upon order of creation: first created -> highest priority.

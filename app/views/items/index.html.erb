@@ -1,2 +1,11 @@
-<h1>Items#index</h1>
-<p>Find me in app/views/items/index.html.erb</p>
+<div class="row">
+
+  <% @item.each do |item| %>
+    <div class="col-xs-2">
+        <%= image_tag(item.item_photo.url(:thumb), alt: "For Sale", size: "100x50") %>
+        <br>
+        <%= link_to item.name.capitalize, item_path(item.id), :class => "btn btn-info" %>
+    </div>
+  <% end %>
+
+</div>
