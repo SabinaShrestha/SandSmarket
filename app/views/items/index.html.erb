@@ -4,7 +4,7 @@
     <div class="col-xs-2">
         <%= image_tag(item.item_photo.url(:thumb), alt: "For Sale", size: "100x50") %>
         <br>
-        <%= link_to item.name.capitalize, item_path(item.id), :class => "btn btn-info" %>
+        <%= link_to "$#{item.price}", item_path(item.id), :class => "btn btn-info" %>
     </div>
   <% end %>
 
