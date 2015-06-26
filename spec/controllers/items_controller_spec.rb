@@ -50,14 +50,14 @@ RSpec.describe ItemsController, type: :controller do
   describe "GET #update" do
     it "returns http success" do
       get :update, id:item.id
-      expect(response).to have_http_status(:success)
+      expect(response).to have_http_status(:redirect)
     end
   end
 
   describe "GET #destroy" do
     it "returns http success" do
       get :destroy, id:item.id
-      expect(response).to have_http_status(:success)
+      expect(response).to have_http_status(:redirect)
     end
   end
 
