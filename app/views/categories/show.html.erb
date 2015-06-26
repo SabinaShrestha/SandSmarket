@@ -1,41 +1,7 @@
-<h1>Pick a Category!</h1>
+<h1><%= @category.name.capitalize %> for Sale</h1>
 
-<div class="btn-group">
-<%= image_tag("homes.jpg", :alt => "Home For Sale", :size => "200x200") %>
-<br>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Homes For Sale <span class="caret"></span>
-  </button>
-</div>
+<% @items.each do |item| %>
 
-<div class="btn-group">
-<%= image_tag("cars.jpg", :alt => "Cars For Sale", :size => "200x200") %>
-<br>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Cars For Sale <span class="caret"></span>
-  </button>
-</div>
+  <%= item.description %>
 
-<div class="btn-group">
-<%= image_tag("appliances2.jpg", :alt => "Appliances For Sale", :size => "200x200") %>
-<br>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Appliances For Sale <span class="caret"></span>
-  </button>
-</div>
-
-<div class="btn-group">
-<%= image_tag("grocery.jpg", :alt => "Groceries For Sale", :size => "200x200") %>
-<br>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Groceries For Sale <span class="caret"></span>
-  </button>
-</div>
-
-<div class="btn-group">
-<%= image_tag("electronics.jpg", :alt => "Electronics For Sale", :size => "200x200") %>
-<br>
-  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Electronics For Sale <span class="caret"></span>
-  </button>
-</div>
+<% end %>

@@ -1,13 +1,11 @@
 <div class="container">
 <div class="jumbotron">
   <h1>S and S Market</h1>
-  <p><a class="btn btn-primary btn-lg" href="/categories/new" role="button">Categories</a>
-  <a class="btn btn-primary btn-lg" href="/items/new" role="button">Items</a></p>
+  <p><a class="btn btn-primary btn-lg" href="/categories/new" role="button">New Category</a>
+  <a class="btn btn-primary btn-lg" href="/items/new" role="button">New Item</a></p>
 </div>
-</div>
 
-
-
-
-
-
+  <% @categories.each do |category| %>
+      <%#= image_tag("electronics.jpg", :alt => "Electronics For Sale", :size => "200x200") %>
+      <%= link_to category.name.capitalize, category_path(category.id), :class => "btn btn-info" %>
+  <% end %>

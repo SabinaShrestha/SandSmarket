@@ -28,7 +28,7 @@ Rails.application.routes.draw do
 
   # get 'categories/destroy'
 
-  
+  root 'categories#index'
 
   resources :categories
   resources :items
