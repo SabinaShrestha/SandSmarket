@@ -1,12 +1,21 @@
+<style>
+  .jumbotron {background:url(<%= image_url 'classified.jpg' %>) no-repeat right;}
+</style>
+
 <div class="container">
-  
-<div class="jumbotron">
-  <h1>S and S Market</h1>
-  <p><a class="btn btn-primary btn-lg" href="/categories/new" role="button">New Category</a>
-  <a class="btn btn-primary btn-lg" href="/items/new" role="button">New Item</a></p>
+  <div class="jumbotron">
+    <h1>S and S Market</h1>
+  </div>
 </div>
 
+<div class="row">
+
   <% @categories.each do |category| %>
-      <%#= image_tag("electronics.jpg", :alt => "Electronics For Sale", :size => "200x200") %>
-      <%= link_to category.name.capitalize, category_path(category.id), :class => "btn btn-info" %>
+    <div class="col-xs-2">
+        <%= image_tag(category.category_photo.url(:thumb), alt: "Electronics For Sale", size: "100x50") %>
+        <br>
+        <%= link_to category.name.capitalize, category_path(category.id), :class => "btn btn-info" %>
+    </div>
   <% end %>
+
+</div>

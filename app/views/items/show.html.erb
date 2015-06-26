@@ -1,3 +1,7 @@
+<h1>For Sale</h1>
+
+<%= image_tag @item.item_photo.url(:medium) if @item.item_photo.present? %>
+
 <h1><%= @item.description %></h1>
 <p><%= @item.details %></p>
 <p><%= @item.price %></p>
